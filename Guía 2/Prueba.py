@@ -1,1 +1,1 @@
-print("Hola")
+# Este archivo está en blanco solo para probar que funcione correctamente la carpeta con las guías :D
