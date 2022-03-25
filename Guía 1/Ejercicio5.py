@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones
+# Inicializar varibles y funciones 
 flag = False
 def Palindromo(a):
     return a == a[::-1] # Verifica que el caracter 0 sea igual al -1(el último) y así sucesivamente
