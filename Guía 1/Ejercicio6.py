@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones
+# Inicializar varibles y funciones 
 vocales = ['a','e','i','o','u','A','E','I','O','U','á','é','í','ó','ú','Á','É','Í','Ó','Ú','ä','ë','ï','ö','ü','Ä','Ë','Ï','Ö','Ü']
 contador = 0
 def ContVocales(str,list):
