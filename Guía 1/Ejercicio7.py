@@ -1,4 +1,4 @@
-# Inicializar variables y funciones
+# Inicializar variables y funciones 
 flag = False
 def NumStep(num):
     for i in range(0, len(num), 2):
