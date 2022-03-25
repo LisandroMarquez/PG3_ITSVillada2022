@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones
+# Inicializar varibles y funciones 
 numeros = []
 numerosOrdenados = []
 num = 1
