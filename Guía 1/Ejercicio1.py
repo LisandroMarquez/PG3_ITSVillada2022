@@ -1,4 +1,4 @@
-# Inicializar variables y funciones
+# Inicializar variables y funciones 
 numeros = [3,31,21,17,28,43,30,36,7,19,12,4,38,49]
 num = 1
 
