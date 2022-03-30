@@ -3,11 +3,11 @@ flag = False
 def Bisiesto(n):
     if n % 4 != 0: 
         return False
-    elif año % 4 == 0 and año % 100 != 0:
+    elif n % 4 == 0 and n % 100 != 0:
         return True
-    elif año % 4 == 0 and año % 100 == 0 and año % 400 != 0:
+    elif n % 4 == 0 and n % 100 == 0 and n % 400 != 0:
         return False
-    elif año % 4 == 0 and año % 100 == 0 and año % 400 == 0:
+    elif n % 4 == 0 and n % 100 == 0 and n % 400 == 0:
 	    return True
 
 # Solicitar el año
