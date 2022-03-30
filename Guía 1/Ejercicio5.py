@@ -1,6 +1,7 @@
 # Inicializar varibles y funciones 
-flag = False
-def Palindromo(a):
+flag: bool = False
+palabra: str = ""
+def Palindromo(a: str) -> bool:
     return a == a[::-1] # Verifica que el caracter 0 sea igual al -1(el último) y así sucesivamente
  
 # Ingresar la palabra

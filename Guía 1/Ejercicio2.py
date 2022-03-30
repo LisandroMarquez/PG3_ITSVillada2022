@@ -1,6 +1,7 @@
 # Inicializar variables y funciones 
-flag = False
-def Bisiesto(n):
+flag: bool = False
+año: int = 0
+def Bisiesto(n: int) -> bool:
     if n % 4 != 0: 
         return False
     elif n % 4 == 0 and n % 100 != 0:

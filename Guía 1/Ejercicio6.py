@@ -1,9 +1,12 @@
 # Inicializar varibles y funciones 
-vocales = ['a','e','i','o','u','A','E','I','O','U','á','é','í','ó','ú','Á','É','Í','Ó','Ú','ä','ë','ï','ö','ü','Ä','Ë','Ï','Ö','Ü']
-contador = 0
-def ContVocales(str,list):
-    for car in str:
-        if car in list:
+vocales: list[str] =    ['a','e','i','o','u',
+                        'A','E','I','O','U',
+                        'á','é','í','ó','ú',
+                        'Á','É','Í','Ó','Ú','ü','Ü']
+contador: int = 0
+def ContVocales(a: str,b: list) -> int:
+    for car in a:
+        if car in b:
             contador += 1
 
 # Ingresar la oración

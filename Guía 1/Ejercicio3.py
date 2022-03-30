@@ -1,5 +1,8 @@
 # Inicializar varibles y funciones 
-def Matriz(n,m,a):
+ancho: int = 0
+alto: int = 0
+char: str = ""
+def Matriz(n: int,m: int,a: str) -> list:
     for i in range(n):
         for i in range(m):
             print(a, end = "")
@@ -8,7 +11,7 @@ def Matriz(n,m,a):
 #Solicitar datos
 ancho = int(input("Ingrese el ancho de la matriz: "))
 alto = int(input("Ingrese el alto de la matriz: "))
-char = input("Ingrese el caracter a repetir en matriz: ")
+char = input("Ingrese el caracter a repetir en la matriz: ")
 
-#Pritear la matriz
+#Printear la matriz
 Matriz(alto,ancho,char)

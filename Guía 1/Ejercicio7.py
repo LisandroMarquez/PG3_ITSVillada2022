@@ -1,6 +1,7 @@
 # Inicializar variables y funciones 
-flag = False
-def NumStep(num):
+flag: bool = False
+num: int = 0
+def NumStep(num: int) -> bool:
     for i in range(0, len(num), 2):
         if not (int(num[i:i + 2][0]) + 1 == int(num[i:i + 2][1]) or int(num[i:i + 2][0]) - 1 == int(num[i:i + 2][1])):
             return False

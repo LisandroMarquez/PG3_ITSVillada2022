@@ -1,1 +1,3 @@
-Guía resuelta al 100%
+25/3 Guía Finalizada
+
+30/3 Guía rehecha definiendo variables, funciones y demás

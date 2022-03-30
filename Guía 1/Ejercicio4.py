@@ -1,15 +1,17 @@
 # Inicializar varibles y funciones 
-numeros = []
-numerosOrdenados = []
-num = 1
-flag = True
+numeros: list[int] = []
+numerosOrdenados: list[int] = []
+num: int = 1
+flag: bool = True
 # Ingresar valores al vector
-while flag:
+while flag == True:
     num = int(input("Ingresar numeros a la matriz (0 para salir):"))
     if num == 0:
         break
     numeros.append(num)
-numerosOrdenados = numeros.copy() # Copiar el vector
+
+# Copiar el vector
+numerosOrdenados = numeros.copy()
 
 # Ordenar el vector
 numerosOrdenados.sort(reverse = True)
