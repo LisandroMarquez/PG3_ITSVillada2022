@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones 
+# Inicializar varibles y funciones  
 flag: bool = False
 palabra: str = ""
 def Palindromo(a: str) -> bool:

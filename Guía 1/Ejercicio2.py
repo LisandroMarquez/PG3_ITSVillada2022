@@ -1,4 +1,4 @@
-# Inicializar variables y funciones 
+# Inicializar variables y funciones  
 flag: bool = False
 año: int = 0
 def Bisiesto(n: int) -> bool:

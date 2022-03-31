@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones 
+# Inicializar varibles y funciones  
 ancho: int = 0
 alto: int = 0
 char: str = ""

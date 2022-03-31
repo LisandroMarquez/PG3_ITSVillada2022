@@ -1,4 +1,4 @@
-# Inicializar variables y funciones 
+# Inicializar variables y funciones  
 flag: bool = False
 num: int = 0
 def NumStep(num: int) -> bool:

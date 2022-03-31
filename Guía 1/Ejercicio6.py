@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones 
+# Inicializar varibles y funciones  
 vocales: list[str] =    ['a','e','i','o','u',
                         'A','E','I','O','U',
                         'á','é','í','ó','ú',

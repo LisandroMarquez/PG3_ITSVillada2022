@@ -1,4 +1,4 @@
-# Inicializar varibles y funciones 
+# Inicializar varibles y funciones  
 numeros: list[int] = []
 numerosOrdenados: list[int] = []
 num: int = 1
