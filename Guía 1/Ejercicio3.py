@@ -2,7 +2,8 @@
 ancho: int = 0
 alto: int = 0
 char: str = ""
-def Matriz(n: int,m: int,a: str) -> list:
+def Matriz(n: int,m: int,a: str) -> str:
+    i: int = 0
     for i in range(n):
         for i in range(m):
             print(a, end = "")
