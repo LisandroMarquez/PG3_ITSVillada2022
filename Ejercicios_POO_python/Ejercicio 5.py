@@ -4,7 +4,7 @@ class Persona:
         self.nombre: str = n
         self.edad: int = e
     def imprimir(self) -> None:
-        return "Nombre: "+self.nombre+"\nEdad: "+str(self.edad)
+        return f"Nombre: {self.nombre}\nEdad: {self.edad}"
 
 # Instanciar objetos
 p1 = Persona("Juan", 36)
@@ -18,9 +18,9 @@ print(p2.imprimir())
 class Empleado(Persona):
     def __init__(self, a: str, b: int) -> None:
         super().__init__(a, b)
-        self.sueldo: float = float(input("Ingrese el sueldo de "+self.nombre+": "))
+        self.sueldo: float = float(input(f"Ingrese el sueldo de {self.nombre}: "))
     def imprimir(self) -> None:
-        return super().imprimir()+"\nSueldo: "+str(self.sueldo)+"\n"+self.impuestos()
+        return f"{super().imprimir()} \nSueldo: {self.sueldo}\n{self.impuestos()}"
     def impuestos(self) -> None:
         if self.sueldo > 3000:
             return "El empleado debe pagar impuestos"
