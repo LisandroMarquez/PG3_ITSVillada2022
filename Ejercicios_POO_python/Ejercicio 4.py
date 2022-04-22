@@ -7,13 +7,13 @@ class Operaciones:
         self.resta()
         self.multiplicacion()
         self.division()
-    def suma(self) -> str:
+    def suma(self) -> None:
         print("La suma entre "+ str(self.num1) +" y "+ str(self.num2) +" da: "+str(self.num1 + self.num2))
-    def resta(self) -> str:
+    def resta(self) -> None:
         print("La resta entre "+ str(self.num1) +" y "+ str(self.num2) +" da: "+str(self.num1 - self.num2))
-    def multiplicacion(self) -> str:
+    def multiplicacion(self) -> None:
         print("La multiplicación entre "+ str(self.num1) +" y "+ str(self.num2) +" da: "+str(self.num1 * self.num2))
-    def division(self) -> str:
+    def division(self) -> None:
         print("La división entre "+ str(self.num1) +" y "+ str(self.num2) +" da: "+str(self.num1 / self.num2))
 
 # Instanciar e imprimir objetos
