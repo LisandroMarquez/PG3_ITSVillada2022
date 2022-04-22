@@ -1,4 +1,4 @@
-# Inicializar la clase
+# Inicializar la clase 
 class Persona:
     def __init__(self, name: str) -> None:
         self.nombre = name
