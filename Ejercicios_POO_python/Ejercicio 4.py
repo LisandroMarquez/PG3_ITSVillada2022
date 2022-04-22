@@ -1,8 +1,8 @@
 # Inicializar la clase
 class Operaciones:
     def __init__(self, n1: int, n2: int) -> None:
-        self.num1 = n1
-        self.num2 = n2
+        self.num1: int = n1
+        self.num2: int = n2
         self.suma()
         self.resta()
         self.multiplicacion()
