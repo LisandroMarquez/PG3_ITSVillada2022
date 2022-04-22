@@ -1,9 +1,9 @@
 # Inicializar la clase 
 class Persona:
     def __init__(self, name: str) -> None:
-        self.nombre = name
+        self.nombre: str = name
     def __str__(self) -> str:
-        return "Mi nombre es "+self.nombre
+        return f"Mi nombre es {self.nombre}"
 
 # Instanciar objetos
 Persona1 = Persona("Pepe")
