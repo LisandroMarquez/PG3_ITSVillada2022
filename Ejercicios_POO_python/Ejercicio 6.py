@@ -6,7 +6,7 @@ class Familia:
         self.hijos: list[str] = hijos
         cont: int = 0
     def imprimir(self) -> None:
-        print("Padre de la familia: "+self.padre+"\nMadre de la familia: "+self.madre+"\nHijos de la familia: ")
+        print(f"Padre de la familia: {self.padre}\nMadre de la familia: {self.madre}\nHijos de la familia: ")
         for i in range(len(self.hijos)):
             print(f"{i+1}) {self.hijos[i]}")
 
