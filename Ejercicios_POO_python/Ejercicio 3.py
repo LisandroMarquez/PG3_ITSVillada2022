@@ -11,7 +11,7 @@ class Triangulo:
             return "El lado mayor es "+str(self.lado2)
         else:
             return "El lado mayor es "+str(self.lado3)
-    def Equilatero(self) -> str:
+    def equilatero(self) -> str:
         if self.lado1 == self.lado2 and self.lado1 == self.lado3:
             return "El triangulo es equilatero"
         else:
@@ -23,6 +23,6 @@ triangulo2 = Triangulo(3, 5, 4)
 
 # Imprimir objetos
 print(triangulo1.ladoMayor())
-print(triangulo1.Equilatero())
+print(triangulo1.equilatero())
 print(triangulo2.ladoMayor())
-print(triangulo2.Equilatero())
+print(triangulo2.equilatero())
