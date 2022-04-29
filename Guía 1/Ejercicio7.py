@@ -1,11 +1,15 @@
-# Inicializar variables y funciones  
+from ast import Mod, mod
+
+
 flag: bool = False
 num: int = 0
 def NumStep(num: int) -> bool:
-    i: int = 0
-    for i in range(0, len(num), 2):
-        if not (int(num[i:i + 2][0]) + 1 == int(num[i:i + 2][1]) or int(num[i:i + 2][0]) - 1 == int(num[i:i + 2][1])):
-            return False
+    if len(num) % 2 != 0:
+        return False
+    else:
+        for i in range(0,len(num),2):
+            if not (int(num[i:i+2][0])+1==int(num[i:i+2][1]) or int(num[i:i+2][0])-1==int(num[i:i+2][1])):
+                return False
     return True
 
 # Ingresar el numero
@@ -16,4 +20,4 @@ flag = NumStep(num)
 if flag == True:
     print("El número ingresado es un Número Step")
 else:
-    print("El número ingresado NO es un Número Step")
+    print("El número ingresado NO es un Número Step o es un número inválido")
