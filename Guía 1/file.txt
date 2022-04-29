@@ -1,3 +1,5 @@
-25/3 Guía Finalizada
+25/03 Guía Finalizada
 
-30/3 Guía rehecha definiendo variables, funciones y demás
+30/03 Guía rehecha definiendo variables, funciones y demás
+
+29/04 Correcciones en la Guía
