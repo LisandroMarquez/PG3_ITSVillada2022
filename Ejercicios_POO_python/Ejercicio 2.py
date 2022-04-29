@@ -16,8 +16,8 @@ alumno1 = Alumno("Pepe",4)
 alumno2 = Alumno("Lichi", 9)
 
 # Imprimir objetos
-print(alumno1.__str__())
+print(alumno1)
 print(alumno1.Aprobado())
 
-print(alumno2.__str__())
+print(alumno2)
 print(alumno2.Aprobado())
