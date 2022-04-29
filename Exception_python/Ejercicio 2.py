@@ -1,8 +1,11 @@
 flag: bool = True
+numero1: int = 0
+numero2: int = 0
+x: int = 0
 while flag:
     try:
-        numero1: int = int(input("Ingrese el primer numero: "))
-        numero2: int = int(input("Ingrese el segundo numero: "))
+        numero1 = int(input("Ingrese el primer numero: "))
+        numero2 = int(input("Ingrese el segundo numero: "))
         print(f"La división entre {numero1} y {numero2} es: {numero1 / numero2}")
     except ZeroDivisionError as exc:
         print(f"Error! No se puede dividir entre 0 {exc.args}")
