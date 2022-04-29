@@ -10,5 +10,5 @@ Persona1 = Persona("Pepe")
 Persona2 = Persona("Juan")
 
 # Imprimir objetos
-print(Persona1.__str__())
-print(Persona2.__str__())
+print(Persona1)
+print(Persona2)
