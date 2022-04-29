@@ -12,11 +12,11 @@ def Bisiesto(n: int) -> bool:
 	    return True
 
 # Solicitar el año
-año = int(input("Ingrese un año para comprobar si es bisiesto:"))
+año = int(input("Ingrese un año para comprobar si es bisiesto: "))
 
 # Combrobar si es bisiesto
 flag = Bisiesto(año)
 if flag == True:
-    print("El año "+str(año)+" si es bisiesto")
+    print(f"El año {año} si es bisiesto")
 else:
-    print("El año "+str(año)+" no es bisiesto")
+    print(f"El año {año} NO es bisiesto")
