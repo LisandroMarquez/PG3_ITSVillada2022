@@ -6,23 +6,23 @@ class Triangulo:
         self.lado3: float = l3
     def ladoMayor(self) -> str:
         if self.lado1 > self.lado2 and self.lado1 > self.lado3:
-            return "El lado mayor es "+str(self.lado1)
+            return f"El lado mayor es {self.lado1}"
         elif self.lado2 > self.lado1 and self.lado2 > self.lado3:
-            return "El lado mayor es "+str(self.lado2)
+            return f"El lado mayor es {self.lado2}"
         else:
-            return "El lado mayor es "+str(self.lado3)
+            return f"El lado mayor es {self.lado3}"
     def equilatero(self) -> str:
         if self.lado1 == self.lado2 and self.lado1 == self.lado3:
             return "El triangulo es equilatero"
         else:
             return "El triangulo no es equilatero"
+    def __str__(self) -> str:
+        return f"{self.ladoMayor()}\n{self.equilatero()}"
 
 # Instanciar objetos
 triangulo1 = Triangulo(3, 3, 3)
 triangulo2 = Triangulo(3, 5, 4)
 
 # Imprimir objetos
-print(triangulo1.ladoMayor())
-print(triangulo1.equilatero())
-print(triangulo2.ladoMayor())
-print(triangulo2.equilatero())
+print(triangulo1)
+print(triangulo2)
