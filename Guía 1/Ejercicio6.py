@@ -18,4 +18,4 @@ oracion = input("Ingresa una oración: ")
 
 # Devolver la cantidad de vocales
 cont = ContVocales(oracion,vocales)
-print("La oración ingresada contiene "+str(cont)+" vocales")
+print(f"La oración ingresada contiene {cont} vocales")
